@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Guess
+comment0.text=\r\n\ Each\ guess\ is\ checked\ whether\ or\ not\ it\ is\ a\ valid\ guess\r\n\ If\ it\ is\ then\ apples\ and\ oranges\ will\ be\ counted\r\n\ Apples\ are\ when\ the\ user\ correctly\ guesses\ the\ exact\ digit\ in\ the\ exact\ place\r\n\ Oranges\ are\ when\ the\ user\ correctly\ guesses\ a\ digit\ but\ in\ the\ wrong\ place\r\n\ Also\ checks\ whether\ or\ not\ a\ number\ has\ unique\ digits\r\n
+comment1.params=g
+comment1.target=boolean\ checkGuess(int)
+comment1.text=\r\n\ Checks\ if\ the\ guess\ is\ valid\ or\ not\r\n\ If\ it\ has\ 5\ unique\ digits,\ then\ returns\ true\r\n\ Otherwise\ returns\ false\ and\ displays\ that\ the\ user\ must\ enter\ 5\ unique\ digits\r\n\ @param\ g\ user's\ guess\r\n\ @return\ true\ or\ false\ whether\ or\ not\ it\ is\ a\ valid\ guess\r\n
+comment2.params=guess\ secret
+comment2.target=int\ countApples(int,\ int)
+comment2.text=\r\n\ Counts\ the\ number\ of\ apples\ in\ a\ guess\r\n\ @param\ guess\ user's\ guess\r\n\ @param\ secret\ number\ user\ is\ trying\ to\ guess\r\n\ @return\ number\ of\ apples\r\n
+comment3.params=guess\ secret
+comment3.target=int\ countOranges(int,\ int)
+comment3.text=\r\n\ Counts\ the\ number\ of\ oranges\ in\ a\ guess\r\n\ @param\ guess\ user's\ guess\r\n\ @param\ secret\ number\ user\ is\ trying\ to\ guess\r\n\ @return\ number\ of\ oranges\r\n
+comment4.params=num
+comment4.target=boolean\ hasUniqueDigits(int)
+comment4.text=\r\n\ Checks\ if\ a\ number\ has\ unique\ digits\ or\ not\r\n\ @param\ num\ number\ we're\ trying\ to\ check\r\n\ @return\ true\ or\ false\ whether\ or\ not\ that\ number\ has\ unique\ digits\r\n
+numComments=5
