@@ -1,12 +1,5 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: MastermindGame
+PURPOSE OF PROJECT: The Mastermind game is programmed in java and involves the player guessing a randomly generated secret number. The game ends when the player guesses the correct number or quits. This was my second project in java, and it helped further my knowledge and effectiveness in programming in java.
+VERSION or DATE: October 2025
+HOW TO START THIS PROJECT: Create a Game object from the Game class and run the play() method.
+AUTHOR: Gabriel Manville
